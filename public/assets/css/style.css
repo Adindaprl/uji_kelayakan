@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,400;1,600&family=Italiana&family=Manrope:wght@200&family=Open+Sans:wght@300&family=Sofia+Sans:ital,wght@0,300;0,400;1,300;1,700&display=swap");
+body{
+    background-color:#ffd32d;
+}
+
+.left{
+    width: 50%;
+}
+
+.t-left{
+ font-size: 58px;
+ margin: 0% 10% 7% 0%;
+ font-family: "Sofia Sans", sans-serif;
+}
+
+.right{
+    width: 50%;
+}
+
+/* REGISTER */
+.register{
+    margin: 5% 7% 5% 7%; 
+}
+
+.card-register{
+    width: 100%;
+    background-color:#ffffff;
+    padding: 7% 7% 7% 7%;
+    display: flex;
+}
+
+.btn-reg{
+    padding: 2% 5% 2% 5%;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* SIDE BAR */
+/* Toggle Styles */
+
+#content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+  }
+  
+  /* Sidebar Styles */
+  
+  #sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #fffdfd;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 10px rgba(83, 81, 81, 0.22), 
+    0 10px 10px rgba(83, 81, 81, 0.22);
+  }
+  
+  #sidebar header {
+    background-color: #f7f9fa;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+  }
+  
+  #sidebar header a {
+    color: rgb(31, 31, 31);
+    display: block;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    color: #0c2570;
+    font-size: 14px;
+    padding: 16px 24px;
+    text-decoration: none;
+  }
